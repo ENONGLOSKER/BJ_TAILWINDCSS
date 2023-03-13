@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- CDN Tailwind -->
+    <script src="https://cdn.tailwindcss.com"></script>
+    <!-- styling custom -->
+    <script>
+        module.exports = {
+        theme: {
+          extend: {
+            spacing: {
+              '13': '3.25rem',              
+            },
+            fontFamily: {
+                'inter':['Inter']
+            },
+          }
+        }
+      }
+    </script>
+    <!-- font -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Dancing+Script&family=Inter:wght@200;400;600;700;900&display=swap" rel="stylesheet">
+    <!-- css custom -->
+    <!-- <style type="text/tailwindcss">
+        *{
+            border: 1px solid orange;
+        }
+    </style> -->
+    <title>Tailwind-Learn</title>
+    
+</head>
+<body>
+    <h1 class="font-serif text-5xl font-bold text-center my-5">Belajar Tailwind CSS with Elcoder</h1>
+    <!-- margin & padding -->
+    <section class="mb-30 font-serif bg-yellow-300 ">
+        <h2 class="p-3 bg-yellow-200 text-slate-500">Padding</h2>
+        <div class="m-6 bg-yellow-600">Margin</div>
+    </section>
+    <!-- width & height -->
+    <section class="mb-30 font-serif bg-orange-400 ">
+        <h2 class="w-1/2 my-5 bg-orange-200">Width & Padding</h2>
+        <div class="h-40 bg-orange-600 "> Height & Margin</div>
+    </section>
+    <!-- font -->
+    <section class=" font-inter mx-auto max-w-3xl ">
+        <h2 class="my-5 bg-indigo-500">FOTN STYLING</h2>
+        <div class="px-10 pt-10">
+            <h2 class="mb-2 text-4xl font-bold">Belajar Front end Dengan <span class="bg-gradient-to-r from-indigo-500 to-cyan-300 text-transparent bg-clip-text">Tailwind CSS</span></h2>
+            <h6 class="mb-2 text-lg">by : elcoder , 19 februari 2023</h6>    
+        </div>
+        <div class="px-10 mb-10 pb-10">
+            <p class="mb-7">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Aspernatur nisi tempore quod nulla incidunt minus quidem. Aperiam nobis maxime natus ab mollitia eaque, sequi quo quos dignissimos esse, velit nesciunt eum, labore sunt ratione quidem eligendi vero ea quaerat autem aliquid nihil delectus enim dolorem! Labore nostrum id consequuntur? Maiores.</p>
+
+            <blockquote class="mb-7 font-thin text-lg italic">"Lorem ipsum dolor sit amet consectetur adipisicing elit. Aliquid repudiandae odio rem? Neque laboriosam, temporibus quos cumque repellat suscipit obcaecati"</blockquote>
+            
+            <p class="mb-10">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Laboriosam unde perferendis aliquid delectus possimus quasi sint consequatur sequi omnis facilis numquam itaque temporibus maiores maxime, reiciendis nesciunt aspernatur voluptate ducimus.</p>
+        </div>
+    </section>
+
+    <div class="container p-10 mt-20 shadow-lg mx-auto border rounded-lg columns-3 bg-red-500 ">
+        <img src="https://source.unsplash.com/600x400" class="mb-4" >
+        <img src="https://source.unsplash.com/600x400" class="mb-4" >
+        <img src="https://source.unsplash.com/600x400" class="mb-4" >
+        <img src="https://source.unsplash.com/600x400" class="mb-4" >
+        <img src="https://source.unsplash.com/600x400" class="mb-4" >
+        <img src="https://source.unsplash.com/600x400" class="mb-4" >
+    </div>
+   
+    <hr class="my-24 border-t-2">
+
+
+   <div class="container mx-auto px-6  sm:max-w-xl md:max-w-5xl">
+    <h3 class="text-center font-bold text-4xl sm:text-5xl mb-4">Responsiv <span class="bg-gradient-to-l from-indigo-600 to-cyan-300 text-transparent bg-clip-text ">Layouting</span> </h3>
+    <img src="https://source.unsplash.com/400x250" class="border rounded-lg shadow-xl mb-6 sm:h-64 sm:w-full sm:object-cover sm:object-center">
+    <h3 class="text-3xl sm:text-4xl font-semibold font-inter mb-3 text-slate-600">Learn TelwindCSS</h3>
+    <p class="text-slate-600 mb-5">Lorem ipsum dolor sit amet consectetur adipisicing elit. Architecto ipsum a quia ea obcaecati! Nostrum dolore corrupti iusto molestiae nulla provident optio dicta alias voluptas odio. In, delectus!</p>
+
+    <div class="mt-3">
+        <a href="#" class="bg-red-600 px-5 py-3 rounded-lg text-white text-sm shadow-xl hover:bg-red-700"> SUBSCIRBE</a>
+    </div>
+
+   </div>
+
+   
+   
+    <div class="container mb-80"></div>
+    
+</body>
+</html>

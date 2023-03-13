@@ -1,0 +1,194 @@
+<!DOCTYPE html>
+<html lang="en" class="dark:bg-slate-800">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tailwindcss</title>
+    <!-- Tailwindcss -->
+    <link rel="stylesheet" href="css/style.css">
+    <!-- tailwind css custom -->
+    <script>
+        module.exports = {
+        // darkMode:'class',
+        theme: {
+          extend: {
+            spacing: {
+              '13': '3.25rem',              
+            },
+            fontFamily: {
+                'inter':['Inter']
+            },
+          }
+        }
+      }
+    </script>
+    <!-- style css custom -->
+    <style type="text/tailwindcss">
+    #toggle:checked ~ div.toggle-circel { @apply translate-x-3; }
+    </style>
+</head>
+<body class="">
+
+    <!-- dark mode -->
+    <div class="flex justify-center my-5 text-slate-600">
+        <span class="text-sm mr-3" >Light</span>
+        
+        <input type="checkbox" id="toggle" class="hidden">
+        <label for="toggle">
+            <div class="w-10 h-5 bg-slate-500 rounded-full flex items-center p-1 cursor-pointer ">
+                <div class="w-4 h-4 bg-slate-300 rounded-full toggle-circel"></div>
+            </div>
+        </label>
+
+        <span class="text-sm ml-3 ">Dark</span>
+    </div>
+
+    <!-- header -->
+    <div class="text-center text-slate-800 font-bold text-5xl my-5 py-5 mx-10 px-4 dark:text-white">
+        <h1>Hai..👋🏻<span class=" bg-gradient-to-r from-indigo-500 to-cyan-300 text-transparent bg-clip-text">Elqusairi</span> Selamat Datang!</h1>      
+    </div>
+    <div class="w-40 py-5 px-2 mx-auto rounded-lg mb-10 text-center bg-gradient-to-r from-cyan-400 to-indigo-600 shadow-lg shadow-cyan-100 ">
+        <a href="#" class="font-semibold text-xl text-white ">Mulai  Belajar</a>
+    </div>
+
+    <!-- kontent -->
+    <div class="bg-slate-700 md:bg-sky-900 mx-10 text-white rounded-lg">
+        <h1 class="px-5 py-5 font-bold text-2xl text-center">BELAJAR FRONT-END</h1>
+        <hr class="mx-5">
+        <div class="h-60 bg-gradient-to-b from-indigo-500 to-indigo-800  mx-5 my-3 bg-cover flex" style="background-image: url(img/bg3.png);">
+            <div class="w-[380px] h-[200px] bg-white/25 m-auto backdrop-blur-md hover:blur-sm "></div>
+        </div>
+        
+        <div class="flex justify-between mx-2 mt-5">
+            <div class="flex justify-start mx-2">
+                <div class="mx-4 -mb-4 h-10 w-10 bg-indigo-300 rounded-full bg-cover" style="background-image: url(img/foto.png);">
+                </div> 
+                <div>
+                    <h3 class="mt-2"> Elqusairi</h3>
+                </div>
+            </div>
+            <div class="mx-5 pt-2 text-sky-500">#Tailwindcss</div>
+        </div>
+        
+
+        <p class="px-5 py-5 text-justify">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Neque omnis, nam dolores quas repellendus, quaerat velit distinctio magni veniam, optio recusandae nobis aperiam molestiae nulla voluptate! Mollitia illo laborum quia reprehenderit maxime. Excepturi quisquam pariatur tempore sunt praesentium velit eum expedita quas fugit provident voluptates sapiente fuga voluptate itaque veniam, est sint vitae atque corrupti ratione earum modi blanditiis dolor.
+        </p>
+
+        <div class="flex justify-between px-5 py-5  ">
+            
+            <div class="bg-sky-500/50 px-5 py-4 rounded-lg hover:bg-sky-500  group">
+                <a href="#" class="group-hover:text-black">Tailwindcss</a>
+            </div>
+
+
+        </div>
+
+    </div>
+    <br>
+    <div class="bg-slate-700 mx-10 text-white rounded-lg">
+        <h1 class="px-5 py-5 font-bold text-2xl text-center ">BELAJAR FRONT-END</h1>
+        <hr class="mx-5">
+        <div class="h-60 bg-gradient-to-b from-indigo-500 to-indigo-800  mx-5 my-3 bg-cover" style="background-image: url(img/bg3.png);">
+            
+        </div>
+        
+        <div class="flex justify-between mx-2 mt-5">
+            <div class="flex justify-start mx-2">
+                <div class="mx-4 -mb-4 h-10 w-10 bg-indigo-300 rounded-full bg-cover" style="background-image: url(img/foto.png);">
+                </div> 
+                <div>
+                    <h3 class="mt-2"> Elqusairi</h3>
+                </div>
+            </div>
+            <div class="mx-5 pt-2 text-sky-500">#Tailwindcss</div>
+        </div>
+        
+
+        <p class="px-5 py-5 text-justify">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Neque omnis, nam dolores quas repellendus, quaerat velit distinctio magni veniam, optio recusandae nobis aperiam molestiae nulla voluptate! Mollitia illo laborum quia reprehenderit maxime. Excepturi quisquam pariatur tempore sunt praesentium velit eum expedita quas fugit provident voluptates sapiente fuga voluptate itaque veniam, est sint vitae atque corrupti ratione earum modi blanditiis dolor.
+        </p>
+
+        <div class="flex justify-between px-5 py-5  ">
+            
+            <div class="bg-sky-500/50 px-5 py-4 rounded-lg hover:bg-sky-500">Tailwindcss</div>
+
+
+        </div>
+
+    </div>
+    <br>
+    <div class="bg-slate-700 mx-10 text-white rounded-lg">
+        <h1 class="px-5 py-5 font-bold text-2xl text-center ">BELAJAR FRONT-END</h1>
+        <hr class="mx-5">
+        <div class="h-60 bg-gradient-to-b from-indigo-500 to-indigo-800  mx-5 my-3 bg-cover" style="background-image: url(img/bg3.png);">
+            
+        </div>
+        
+        <div class="flex justify-between mx-2 mt-5">
+            <div class="flex justify-start mx-2">
+                <div class="mx-4 -mb-4 h-10 w-10 bg-indigo-300 rounded-full bg-cover" style="background-image: url(img/foto.png);">
+                </div> 
+                <div>
+                    <h3 class="mt-2"> Elqusairi</h3>
+                </div>
+            </div>
+            <div class="mx-5 pt-2 text-sky-500">#Tailwindcss</div>
+        </div>
+        
+
+        <p class="px-5 py-5 text-justify">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Neque omnis, nam dolores quas repellendus, quaerat velit distinctio magni veniam, optio recusandae nobis aperiam molestiae nulla voluptate! Mollitia illo laborum quia reprehenderit maxime. Excepturi quisquam pariatur tempore sunt praesentium velit eum expedita quas fugit provident voluptates sapiente fuga voluptate itaque veniam, est sint vitae atque corrupti ratione earum modi blanditiis dolor.
+        </p>
+
+        <div class="flex justify-between px-5 py-5  ">
+            
+            <div class="bg-sky-500/50 px-5 py-4 rounded-lg hover:bg-sky-500">Tailwindcss</div>
+
+
+        </div>
+
+    </div>
+    <br>
+    <div class="bg-slate-700 mx-10 text-white rounded-lg">
+        <h1 class="px-5 py-5 font-bold text-2xl text-center ">BELAJAR FRONT-END</h1>
+        <hr class="mx-5">
+        <div class="h-60 bg-gradient-to-b from-indigo-500 to-indigo-800  mx-5 my-3 bg-cover" style="background-image: url(img/bg3.png);">
+            
+        </div>
+        
+        <div class="flex justify-between mx-2 mt-5">
+            <div class="flex justify-start mx-2">
+                <div class="mx-4 -mb-4 h-10 w-10 bg-indigo-300 rounded-full bg-cover" style="background-image: url(img/foto.png);">
+                </div> 
+                <div>
+                    <h3 class="mt-2"> Elqusairi</h3>
+                </div>
+            </div>
+            <div class="mx-5 pt-2 text-sky-500">#Tailwindcss</div>
+        </div>
+        
+
+        <p class="px-5 py-5 text-justify">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Neque omnis, nam dolores quas repellendus, quaerat velit distinctio magni veniam, optio recusandae nobis aperiam molestiae nulla voluptate! Mollitia illo laborum quia reprehenderit maxime. Excepturi quisquam pariatur tempore sunt praesentium velit eum expedita quas fugit provident voluptates sapiente fuga voluptate itaque veniam, est sint vitae atque corrupti ratione earum modi blanditiis dolor.
+        </p>
+
+        <div class="flex justify-between px-5 py-5  ">
+            
+            <div class="bg-sky-500/50 px-5 py-4 rounded-lg hover:bg-sky-500">Tailwindcss</div>
+
+
+        </div>
+
+    </div>
+    <br>
+
+    <!-- animation -->
+    <script>
+        const checkbox = document.querySelector('#toggle');
+        const html = document.querySelector('html')
+
+        checkbox.addEventListener('click',function(){
+            checkbox.checked ? html.classList.add('dark') : html.classList.remove('dark');
+        });
+    </script>
+ 
+</body>
+</html>
